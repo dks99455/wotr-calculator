@@ -1,14 +1,14 @@
 import "./App.css";
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
-import LevelOne from './components/Level1';
+import LevelUp from './components/LevelUp';
 
 function App() {
   return (
     <>
       <Routes>
       <Route path="/" element={<Layout />}>
-        <Route path="levelone" element={<LevelOne />}/>
+        <Route path="levelup" element={<LevelUp />}/>
       </Route>
       </Routes>
     </>
