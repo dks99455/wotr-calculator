@@ -1,6 +1,6 @@
 
 
-const LevelOne = ({ jobClass }) =>{
+const LevelOne = ({ jobClass, jobLevel }) =>{
   return (
     <div>LEVEL ONE COMPONENT</div>
   )

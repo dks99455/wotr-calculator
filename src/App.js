@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
-import LevelOne from './components/LevelOne';
+import LevelOne from './components/Level1';
 
 function App() {
   return (
