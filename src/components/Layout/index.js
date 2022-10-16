@@ -5,7 +5,7 @@ const Layout = () => {
     <div className='App'>
       <TopMenu />
       <div className='page'>
-
+        {'LEVEL PAGE'}
       </div>
     </div>
   )
