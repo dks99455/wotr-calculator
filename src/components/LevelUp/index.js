@@ -2,7 +2,7 @@
 
 const LevelUp = ({ jobClass, jobLevel }) =>{
   return (
-    <div>LEVEL UP COMPONENT GOES HERE</div>
+    <div>LEVEL UP COMPONENT</div>
   )
 }
 
