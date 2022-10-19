@@ -1,20 +1,12 @@
-import "./App.css";
-import { Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
-import CharacterCreate from './components/CharacterCreate';
-import LevelUp from './components/LevelUp';
+import React from 'react';
+import './App.css';
 
 function App() {
   return (
-    <>
-      <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<CharacterCreate />} />
-        <Route path="levelup" element={<LevelUp />}/>
-      </Route>
-      </Routes>
-    </>
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
   );
 }
 
-export default App
+export default App;
